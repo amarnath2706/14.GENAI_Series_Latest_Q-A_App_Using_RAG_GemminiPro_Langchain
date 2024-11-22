@@ -11,7 +11,8 @@ from langchain_core.prompts import ChatPromptTemplate
 import chromadb
 
 chromadb.api.client.SharedSystemClient.clear_system_cache()
-#If you encounter the mentioned issue then add above two lines(lineno: 11 and 13) 
+#issue: ValueError: Could not connect to tenant default_tenant. Are you sure it exists?
+#Suppose if you encounter the above mentioned issue then add above two lines(lineno: 11 and 13), then the app will be run successfully
 
 
 
