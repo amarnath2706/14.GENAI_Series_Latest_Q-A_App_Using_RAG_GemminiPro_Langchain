@@ -15,9 +15,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-st.title("RAG Application using Gemini Pro")
+st.title("RAG Application using Gemini Pro, Langchain and Streamlit")
 
-loader = PyPDFLoader("my_paper.pdf")
+loader = PyPDFLoader("ULM.pdf")
 data = loader.load()
 
 
