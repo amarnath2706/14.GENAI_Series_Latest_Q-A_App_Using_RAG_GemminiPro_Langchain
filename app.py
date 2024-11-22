@@ -8,6 +8,10 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 
+import chromadb
+
+chromadb.api.client.SharedSystemClient.clear_system_cache()
+#If you encounter the mentioned issue then add above two lines(lineno: 11 and 13) 
 
 
 
